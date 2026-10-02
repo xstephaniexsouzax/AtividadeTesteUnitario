@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="794be220-9bdd-4de8-9503-f27e074325e0" name="Changes" comment="" />
+    <list default="true" id="794be220-9bdd-4de8-9503-f27e074325e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade/testeunitario/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade/testeunitario/ValidarSenha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Usuario/ValidarSenhaTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testeunitario/ValidacaoSenhaServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Usuario/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Usuario/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Usuario/ValidarSenha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Usuario/ValidarSenha.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +26,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0,
@@ -35,23 +48,33 @@
     "JUnit.CalculadoraTest.executor": "Run",
     "JUnit.CalculadoraTest.multiPorZero.executor": "Run",
     "JUnit.CalculadoraTest.somarNegativo.executor": "Run",
+    "JUnit.ValidacaoSenhaServiceTest.executor": "Run",
+    "JUnit.ValidarSenhaTeste.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ST-003/IdeaProjects/AtividadeTesteUnitario/Calculadora",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ListaUsuarios">
+  <component name="RunManager" selected="JUnit.CalculadoraTest">
     <configuration name="ListaUsuarios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="projeto.calculadora.ListaUsuarios" />
       <module name="calculadora-junit5" />
@@ -78,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculadoraTest.divisaoDecimal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculadoraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculadora-junit5" />
       <extension name="coverage">
         <pattern>
@@ -88,51 +111,48 @@
       </extension>
       <option name="PACKAGE_NAME" value="projeto.calculadora" />
       <option name="MAIN_CLASS_NAME" value="projeto.calculadora.CalculadoraTest" />
-      <option name="METHOD_NAME" value="divisaoDecimal" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculadoraTest.multiPorZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidacaoSenhaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculadora-junit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="projeto.calculadora.*" />
+          <option name="PATTERN" value="testeunitario.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="projeto.calculadora" />
-      <option name="MAIN_CLASS_NAME" value="projeto.calculadora.CalculadoraTest" />
-      <option name="METHOD_NAME" value="multiPorZero" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="testeunitario" />
+      <option name="MAIN_CLASS_NAME" value="testeunitario.ValidacaoSenhaServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculadoraTest.somarNegativo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidarSenhaTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculadora-junit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="projeto.calculadora.*" />
+          <option name="PATTERN" value="Usuario.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="projeto.calculadora" />
-      <option name="MAIN_CLASS_NAME" value="projeto.calculadora.CalculadoraTest" />
-      <option name="METHOD_NAME" value="somarNegativo" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="Usuario" />
+      <option name="MAIN_CLASS_NAME" value="Usuario.ValidarSenhaTeste" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListaUsuarios" />
+        <item itemvalue="JUnit.CalculadoraTest" />
+        <item itemvalue="JUnit.ValidacaoSenhaServiceTest" />
+        <item itemvalue="JUnit.ValidarSenhaTeste" />
         <item itemvalue="Application.Usuario.App" />
-        <item itemvalue="JUnit.CalculadoraTest.multiPorZero" />
-        <item itemvalue="JUnit.CalculadoraTest.divisaoDecimal" />
-        <item itemvalue="JUnit.CalculadoraTest.somarNegativo" />
+        <item itemvalue="Application.ListaUsuarios" />
       </list>
     </recent_temporary>
   </component>
@@ -156,5 +176,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
