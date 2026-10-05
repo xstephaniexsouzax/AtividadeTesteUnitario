@@ -1,24 +1,18 @@
 package atividade.testeunitario;
 
 public class Usuario {
-    private String nome;
     private String login;
     private String senha;
-    private String email;
+    private Nivel nivel;
+    private boolean bloqueado;
+    private int quantidadeTentativas;
 
-    public Usuario(String nome, String login, String senha, String email) {
-        this.nome = nome;
+    public Usuario(String login, String senha, Nivel nivel, boolean bloqueado, int quantidadeTentativas) {
         this.login = login;
         this.senha = senha;
-        this.email = email;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
+        this.nivel = nivel;
+        this.bloqueado = bloqueado;
+        this.quantidadeTentativas = quantidadeTentativas;
     }
 
     public String getLogin() {
@@ -37,11 +31,27 @@ public class Usuario {
         this.senha = senha;
     }
 
-    public String getEmail() {
-        return email;
+    public Nivel getNivel() {
+        return nivel;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setNivel(Nivel nivel) {
+        this.nivel = nivel;
+    }
+
+    public boolean isBloqueado() {
+        return bloqueado;
+    }
+
+    public void setBloqueado(boolean bloqueado) {
+        this.bloqueado = bloqueado;
+    }
+
+    public int getQuantidadeTentativas() {
+        return quantidadeTentativas;
+    }
+
+    public void setQuantidadeTentativas(int quantidadeTentativas) {
+        this.quantidadeTentativas = quantidadeTentativas;
     }
 }
